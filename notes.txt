@@ -1,0 +1,26 @@
+1090 260, 1280 43 : Planètes
+1090 400, 1280 68 : Planètes Naines
+1280x720
+
+
+		<map name="image_titre">
+		<area shape="rect" coords="1090,260,1280,310" href="planetes.html" alt="Planètes">
+		<area>
+		</map>
+https://www.w3.org/Style/Examples/011/firstcss.fr.html
+
+
+<div id="mercure" class="donnee">Mercure
+	<table>
+		<tr><th>Distance par rapport au Soleil (millions de km)</th><td></td></tr>
+		<tr><th>Période orbitale (jours terrestres)</th><td></td></tr>
+		<tr><th>Durée d'une journée (heures)</th><td></td></tr>
+		<tr><th>Vitesse orbitale (km/s)</th><td></td></tr>
+		<tr><th>Inclinaison orbitale (degrés)</th><td></td></tr>
+		<tr><th>Diamètre (km)</th><td></td></tr>
+		<tr><th>Masse (milliards de milliards de tonnes)</th><td></td></tr>
+		<tr><th>Volume (millions de km cubes)</th><td></td></tr>
+		<tr><th>Gravité (% de celle de la Terre)</th><td></td></tr>
+		<tr><th>Température de surface (°C)</th><td></td></tr>
+	</table>
+</div>

@@ -1,0 +1,168 @@
+body {
+	background-color: black;
+
+	color: white;
+	text-align: center;
+	font-family: calibri;
+	padding-top: 5em;
+	margin-left: 13rem;
+}
+
+div {
+	text-align: left;
+	color: #c0c0c0;
+}
+
+p {
+	font-size: 19px;
+	text-indent: 2em;
+}
+
+h1 {
+	background-color: rgba(255, 255, 255, 0.2);
+	font-size: 3.5em;
+	color: red;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: center;
+	margin-top: -1em;
+}
+h1:hover {
+	color: yellow;
+}
+h1.titre {
+
+}
+
+h2 {
+	font-size: 2em;
+	color: #cccccc;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+h3:hover {
+	color: yellow;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+a:active {
+	color: red;
+}
+a.extern::before {
+	content: "\01F5FA  ";
+	color: red;
+}
+
+.to_up::before {
+	font-size: 0.8em;
+	content: "▲";
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	color: white;
+	background-color: white;
+	height: 1px;
+}
+hr:hover {
+	color: yellow;
+	background-color: yellow;
+}
+
+ul {
+	text-align: left;
+	list-style: circle;
+}
+
+ul.menu {
+	color: #00ffff;
+	background-image: url('images/fond_menu.gif');
+	background-size: contain;
+	background-repeat: repeat;
+	position: fixed;
+	top: 0rem;
+	left: 0rem;
+	width: 8rem;
+	height: 100%;
+	margin-left: 1em;
+}
+.plan ul.menu {
+	color: #00ffff;
+	background-image: url('images/etoile.jpg');
+	background-size: cover;
+	position: inherit;
+	width: 80%;
+	margin-left: 1em;
+}
+.plan {
+	font-size: 1.2em;
+}
+ul.menu a {
+	color: #cccccc;
+}
+ul.menu a:hover {
+	background: radial-gradient(red,rgba(0,0,0,0));
+}
+li {
+	margin-left: -1em;
+}
+li.menu {
+	margin-left: -0.5em;
+	font-size: 2em;
+	color: yellow;
+}
+li.menu a {
+	color: yellow;
+	text-decoration: none;
+}
+
+img.title {
+	max-width: 20%;
+	height: auto;
+	float: left;
+}
+
+.donnee {
+	font-family: arial;
+}
+div.donnee {
+	font-weight: bold;
+	font-style: italic;
+	color: blue;
+}
+.donnee table {
+	font-weight: normal;
+	font-style: normal;
+}
+.donnee th {
+	color: #c0c0c0;
+	text-align: left;
+	border-width: 0 0 1px 0;
+	border-style: dotted;
+	border-color: #c0c0c0;
+	width: 75%;
+}
+.donnee td {
+	color: #ffffff;
+	text-align: right;
+	border-width: 0 0 1px 0;
+	border-style: dotted;
+	border-color: #c0c0c0;
+	width: 25%;
+}
+th.title {
+	color: green;
+	text-align: center;
+}
+table {
+	width: 100%;
+}
